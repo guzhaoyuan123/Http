@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/mimv"
+        android:padding="5dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textAllCaps="true"
+            android:textColor="#00f"
+            android:id="@+id/mtvtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lastBaselineToBottomHeight="20dp"
+            android:text="标题"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/mtvtitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="副标题"
+            android:textColor="#000000"
+            android:textSize="15dp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
